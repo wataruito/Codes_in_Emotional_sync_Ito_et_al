@@ -45,10 +45,11 @@ pip install ffmpeg-python
     
 3. Extract the downloaded zip file.
 4. Place the `Codes_in_Emotional_sync_Ito_et_al-main` folder to an appropriate place.
-5. Change the current directory into the `Codes_in_Emotional_sync_Ito_et_al-main` folder.
+
 
 #### 4. In the opened the Anaconda prompt   
-Start Jupyter Lab.
+1. Change the current directory into the `Codes_in_Emotional_sync_Ito_et_al-main` folder.
+2. Start Jupyter Lab.
     
 ```python
 jupyter lab python_codes_in_manuscript.ipynb
