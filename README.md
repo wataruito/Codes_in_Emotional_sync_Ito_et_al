@@ -3,8 +3,8 @@ Running title: Emotional synchronization in mice<BR>
 Wataru Ito*, Alexei Morozov*
 
 *This document describes the codes in the manuscript and how to run them using an example video, according to the nature portfolio, Reporting Summary, and Software and code.
-
-# 1. Set up the Python environment
+    
+# Set up the Python environment
 Conda and pip configured the Python environment. We describe here solely the installation on Windows 10 PC. The lines preceded by # are comment lines.
 
 #### 1. Install Miniconda
@@ -48,6 +48,4 @@ cd Codes_in_Emotional_sync_Ito_et_al
 ```python
 jupyter lab python_codes_in_manuscript.ipynb
 ```
-
-#### 5. Set the root path
-Set the current path as an absolute path.
+Follow "1. Set the root path" in the opened notebook
