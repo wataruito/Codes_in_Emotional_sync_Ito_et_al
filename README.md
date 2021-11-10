@@ -12,6 +12,8 @@ Download the binary and install it as described on the web<BR>
 https://docs.conda.io/en/latest/miniconda.html#windows-installers
     
 #### 2. Open the Anaconda prompt and follow the sequence below.
+1. In the Anaconda prompt
+
 ```python
 # anaconda, python 3.8 for MATLAB engine for python
 conda update -n base -c defaults conda
@@ -19,12 +21,13 @@ conda create --name jl2
 conda activate jl2
 conda install python=3.8 anaconda
 ```
-    
+
+2. Close the Anaconda prompt.
+3. Install node.js<BR>
+Download Nodo.js https://nodejs.org/en/download/
+4. Open again the Anaconda prompt
+
 ```python    
-# matplotlib
-# The following command request installation of node.js
-# Download Nodo.js https://nodejs.org/en/download/<BR>
-# Install https://github.com/nodejs/help/wiki/Installation
 jupyter labextension install @jupyter-widgets/jupyterlab-manager
 jupyter labextension install jupyter-matplotlib
 jupyter nbextension list
@@ -56,3 +59,4 @@ jupyter lab python_codes_in_manuscript.ipynb
 ```
     
 Follow "1. Set the root path" in the opened notebook.
+    
