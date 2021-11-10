@@ -5,12 +5,18 @@ Wataru Ito*, Alexei Morozov*
 *This document describes the codes in the manuscript and how to run them using an example video, according to **the nature portfolio, Reporting Summary, and Software and code**.
     
 # Set up the Python environment
-Conda and pip configured the Python environment. We describe here solely the installation on Windows 10 PC. The lines preceded by # are comment lines.
+Conda and pip configured the Python environment. We describe here solely the installation on Windows 10 PC. The lines preceded by # are comment lines.<BR>
+The installation procedure was tested on 11/10/2021 using a freshly installed Win10 PC.
 
-#### 1. Install Miniconda
+#### 1. Install Windows apps
+1. Miniconda<BR>
 Download the binary and install it as described on the web<BR>
 https://docs.conda.io/en/latest/miniconda.html#windows-installers
-    
+2. node.js<BR>
+Download Nodo.js from https://nodejs.org/en/download/
+3. ffmpeg<BR>
+Download ffmpeg-git-full.7z from https://www.gyan.dev/ffmpeg/builds/
+
 #### 2. Open the Anaconda prompt and follow the sequence below.
 1. In the Anaconda prompt
 
@@ -22,20 +28,14 @@ conda activate jl2
 conda install python=3.8 anaconda
 ```
 
-2. Close the Anaconda prompt.
-3. Install node.js<BR>
-Download Nodo.js https://nodejs.org/en/download/
-4. Open again the Anaconda prompt
-
-```python    
+```python
 jupyter labextension install @jupyter-widgets/jupyterlab-manager
 jupyter labextension install jupyter-matplotlib
 jupyter nbextension list
 ```
 
 ```python 
-# Install other packages
-# for video process
+# Install other packages for video process
 pip install opencv-contrib-python
 pip install ffmpeg-python
 ```
