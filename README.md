@@ -8,7 +8,7 @@ Wataru Ito*, Alexei Morozov*
 Conda and pip configured the Python environment. We describe here solely the installation on Windows 10 PC. The lines preceded by # are comment lines.
 
 #### 1. Install Miniconda
-Download the binary and install it as described on the web
+Download the binary and install it as described on the web<BR>
 https://docs.conda.io/en/latest/miniconda.html#windows-installers
     
 #### 2. Open the Anaconda prompt and follow the sequence below.
@@ -37,15 +37,20 @@ pip install opencv-contrib-python
 pip install ffmpeg-python
 ```
 
-#### 3. Clone the GitHub code
-Move to the folder you want to clone the GitHub code
-```python
-cd W:\wataru\jupyter\synchro_freeze
-git clone https://github.com/frejanordsiek/hdf5storage.git
-cd Codes_in_Emotional_sync_Ito_et_al
-```
-#### 4. Start Jupyter Lab.
+#### 3. Download the codes and start Jupyter Lab
+1. Go to https://github.com/wataruito/Codes_in_Emotional_sync_Ito_et_al
+2. Select the "Code/Download ZIP"
+    
+<img src="img/Screenshot 2021-11-10 145736.png" width=400px><BR>
+    
+3. Extract the downloaded zip file.
+4. Place the `Codes_in_Emotional_sync_Ito_et_al-main` folder to an appropriate place.
+5. Change the current directory into the `Codes_in_Emotional_sync_Ito_et_al-main` folder.
+6. Start Jupyter Lab.
+    
 ```python
 jupyter lab python_codes_in_manuscript.ipynb
 ```
-Follow "1. Set the root path" in the opened notebook
+    
+Follow "1. Set the root path" in the opened notebook.
+    
