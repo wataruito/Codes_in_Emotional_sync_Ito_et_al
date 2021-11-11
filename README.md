@@ -2,7 +2,7 @@
 Running title: Emotional synchronization in mice<BR>
 Wataru Ito*, Alexei Morozov*
 
-*This document describes the codes in the manuscript and how to run them using an example video.
+This document describes the codes in the manuscript and how to run them using an example video.
     
 # Set up the Python environment
 Conda and pip configured the Python environment. We describe here installation only on Windows 10 PC. The lines preceded by # are comment lines. The installation procedure was tested on 11/10/2021 using a freshly installed Win10 PC.
