@@ -9,5 +9,5 @@ Please open the notebook file, `python_codes_in_manuscript.ipynb`, or [click her
 
 ### Reproduce the results
 Please follow the two notebook files;
-    `python_codes_in_manuscript.ipynb`, or [click here](https://github.com/wataruito/Codes_in_Emotional_sync_Ito_et_al/blob/main/python_codes_in_manuscript.ipynb)
-    `statistical_analyses.ipynb`, or [click here](https://github.com/wataruito/Codes_in_Emotional_sync_Ito_et_al/blob/main/statistical_analyses.ipynb)
+    `python_codes_in_manuscript.ipynb`, or [click here](https://github.com/wataruito/Codes_in_Emotional_sync_Ito_et_al/blob/main/python_codes_in_manuscript.ipynb)<BR>
+    `statistical_analyses.ipynb`, or [click here](https://github.com/wataruito/Codes_in_Emotional_sync_Ito_et_al/blob/main/statistical_analyses.ipynb)<BR>
