@@ -3,7 +3,9 @@ Running title: Emotional synchronization in mice<BR>
 Wataru Ito*, Alexei Morozov*
 
 This document describes the codes in the manuscript and how to run them using an example video.
-    
+### Note
+The document will be updated soon according the acceptance. (8/4/2022, wi)
+
 ### Installation
 Please open the notebook file, `python_codes_in_manuscript.ipynb`, or [click here](https://github.com/wataruito/Codes_in_Emotional_sync_Ito_et_al/blob/main/python_codes_in_manuscript.ipynb), which describes detailed procudure and usage.
 
